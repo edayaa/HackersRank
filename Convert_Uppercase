@@ -1,0 +1,9 @@
+txt = "hello, 12and welcome To my world."
+
+x = txt.split(' ')
+str_res=""
+x1 = [ i.capitalize() for i in x ]
+for i in x1:
+	str_res+= str(i) + " "
+str_res = str_res[:-1]
+print (str_res)
